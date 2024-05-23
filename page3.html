@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Third Quarter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffe6f2;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            text-align: center;
+            background-color: #ff69b4;
+            color: #fff;
+            padding: 20px 0;
+            border-bottom: 5px solid #ff3399;
+        }
+
+        .header .logo {
+            width: 100px;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        .title {
+            margin: 0;
+            padding: 10px 0;
+            font-size: 2em;
+            font-weight: bold;
+            text-shadow: 2px 2px #ff3399;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: #ff69b4;
+            padding: 10px 0;
+        }
+
+        .nav-link {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        .nav-link:hover {
+            text-decoration: underline;
+        }
+
+        .search-form {
+            display: flex;
+            margin-left: auto;
+        }
+
+        .form-control {
+            padding: 5px;
+            margin-right: 10px;
+        }
+
+        .btn-outline-success {
+            color: #fff;
+            background-color: #28a745;
+            border-color: #28a745;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-outline-success:hover {
+            background-color: #218838;
+            color: #fff;
+            border-color: #1e7e34;
+        }
+
+        .content {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            color: #333;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            width: 90%;
+        }
+
+        .gallery {
+            display: table;
+            width: 100%;
+            border-spacing: 15px;
+        }
+
+        .gallery-row {
+            display: table-row;
+        }
+
+        .photo {
+            display: table-cell;
+            padding: 20px;
+            background-color: #ffccdd;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .photo:hover {
+            transform: scale(1.05);
+        }
+
+        .photo h2 {
+            font-size: 1.5em;
+            color: #333;
+            margin-top: 0;
+        }
+
+        .photo img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .photo p {
+            font-size: 1em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .back-to-top {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .back-to-top a {
+            text-decoration: none;
+            color: #0000EE;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #ff69b4;
+            color: #fff;
+            border-top: 5px solid #ff3399;
+        }
+
+        .footer a {
+            color: #fff;
+            text-decoration: underline;
+        }
+
+        .social-media {
+            margin-top: 10px;
+        }
+
+        .social-media img {
+            width: 32px;
+            height: 32px;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <img src="https://yt3.googleusercontent.com/ytc/AIdro_nq6O-1N-DWIC9Kgiz0t2UnQ52DZjgnH_UimsDq3pGNRfA=s900-c-k-c0x00ffffff-no-rj" alt="Love the Philippines Logo" class="logo">
+        <h1 class="title">Third Quarter Project</h1>
+    </header>
+    <nav class="navbar">
+        <a href="mainpage.html" class="nav-link">Main Page</a>
+        <a href="page2.html" class="nav-link">Second Quarter</a>
+        <a href="page3.html" class="nav-link">Third Quarter</a>
+        <a href="page4.html" class="nav-link">Fourth Quarter</a>
+        <form class="search-form">
+            <input class="form-control" type="search" placeholder="Search..." aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+    </nav>
+    <main>
+        <section class="content">
+            <p>The Philippines is a country full of beautiful scenery, abundant natural resources, and warm people. From the mesmerizing coastlines to the inventive local crafts to the distinctive gourmet experience, you will find the kind of pleasure that is specifically yours here. Everyone is free to join in the fun. There is always something exciting to learn whether you are traveling casually or investing for your own business in the Philippines.</p>
+            <p>Here are the top 3 destinations in the Philippines that will leave you in awe:</p>
+            <div class="gallery">
+                <div class="gallery-row">
+                    <div class="photo">
+                        <h2>Boracay</h2>
+                        <img src="https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_680/v1689827480/blog/h2076smumntdnujjeqqt.jpg" alt="Boracay">
+                        <p>This is one of the country’s most popular tourist destinations and has become an international destination too.</p>
+                        <button class="btn btn-outline-success" type="button">Learn More</button>
+                    </div>
+                    <div class="photo">
+                        <h2>Intramuros</h2>
+                        <img src="https://image.kkday.com/v2/image/get/s1.kkday.com/product_132921/20220902075537_O0hBH/jpg" alt="Intramuros">
+                        <p>Intramuros is a historic walled area located in the heart of Manila, the capital city of the Philippines. It was built during the Spanish colonial period and served as the center of political, religious, and military power during that time.</p>
+                        <button class="btn btn-outline-success" type="button">Learn More</button>
+                    </div>
+                    <div class="photo">
+                        <h2>Puerto Princesa</h2>
+                        <img src="https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/2000491305372/Puerto-Princesa-Underground-River---Day-Tour-a990128c-82a6-4abb-b64e-c849ba46830f.jpeg?_src=imagekit&tr=c-at_max,h-260,q-100,w-412" alt="Puerto Princesa">
+                        <p>This place is well-known for its marine sanctuaries, white sand beaches, and diverse wildlife, making it ideal for outdoor enthusiasts and nature lovers.</p>
+                        <button class="btn btn-outline-success" type="button">Learn More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="back-to-top">
+                <a href="#top">Back to Top</a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Source: To learn more about the Philippines, visit: <a href="https://philippines.travel/">https://philippines.travel/</a></p>
+        <div class="social-media">
+            <a href="#"><img src="https://img.icons8.com/fluent/48/000000/facebook-new.png" alt="Facebook"></a>
+            <a href="#"><img src="https://img.icons8.com/fluent/48/000000/twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png" alt="Instagram"></a>
+            <a href="#"><img src="https://img.icons8.com/fluent/48/000000/youtube-play.png" alt="YouTube"></a>
+        </div>
+    </footer>
+</body>
+</html>

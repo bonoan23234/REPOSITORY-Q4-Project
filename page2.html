@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Quarter Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffe6f2;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            text-align: center;
+            background-color: #ff69b4;
+            color: #fff;
+            padding: 20px 0;
+            border-bottom: 5px solid #ff3399;
+        }
+
+        .header .logo {
+            width: 100px;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        .title {
+            margin: 0;
+            padding: 10px 0;
+            font-size: 2em;
+            font-weight: bold;
+            text-shadow: 2px 2px #ff3399;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: #ff69b4;
+            padding: 10px 0;
+        }
+
+        .nav-link {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        .nav-link:hover {
+            text-decoration: underline;
+        }
+
+        .search-form {
+            display: flex;
+            margin-left: auto;
+        }
+
+        .form-control {
+            padding: 5px;
+            margin-right: 10px;
+        }
+
+        .btn-outline-success {
+            color: #fff;
+            background-color: #28a745;
+            border-color: #28a745;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-outline-success:hover {
+            background-color: #218838;
+            color: #fff;
+            border-color: #1e7e34;
+        }
+
+        .content {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            color: #333;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            width: 90%;
+        }
+
+        .gallery {
+            display: table;
+            width: 100%;
+            border-spacing: 15px;
+        }
+
+        .gallery-row {
+            display: table-row;
+        }
+
+        .photo {
+            display: table-cell;
+            padding: 20px;
+            background-color: #ffccdd;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .photo:hover {
+            transform: scale(1.05);
+        }
+
+        .photo h2 {
+            font-size: 1.5em;
+            color: #333;
+            margin-top: 0;
+        }
+
+        .photo img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .photo p {
+            font-size: 1em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .back-to-top {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .back-to-top a {
+            text-decoration: none;
+            color: #0000EE;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #ff69b4;
+            color: #fff;
+            border-top: 5px solid #ff3399;
+        }
+
+        .footer a {
+            color: #fff;
+            text-decoration: underline;
+        }
+
+        .social-media {
+            margin-top: 10px;
+        }
+
+        .social-media img {
+            width: 32px;
+            height: 32px;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <img src="https://yt3.googleusercontent.com/ytc/AIdro_nq6O-1N-DWIC9Kgiz0t2UnQ52DZjgnH_UimsDq3pGNRfA=s900-c-k-c0x00ffffff-no-rj" alt="Logo" class="logo">
+        <h1 class="title">Second Quarter Project</h1>
+    </header>
+    <nav class="navbar">
+        <a href="mainpage.html" class="nav-link">Main Page</a>
+        <a href="page2.html" class="nav-link">Second Quarter</a>
+        <a href="page3.html" class="nav-link">Third Quarter</a>
+        <a href="page4.html" class="nav-link">Fourth Quarter</a>
+        <form class="search-form">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+    </nav>
+    <main>
+        <section class="content">
+            <h2>Characters in Noli Me Tangere</h2>
+            <div class="gallery">
+                <div class="gallery-row">
+                    <div class="photo">
+                        <h2>Juan Crisóstomo Ibarra y Magsalin (Ibarra)</h2>
+                        <img src="https://static.wikia.nocookie.net/noli-me-tangere/images/d/d9/AviIbarra.png/revision/latest/thumbnail/width/360/height/360?cb=20200523011813" alt="Juan Crisóstomo Ibarra y Magsalin (Ibarra)">
+                        <p>Ibarra is a young, wealthy mestizo who has recently returned to the Philippines from seven years of study in Europe. He is smart, well-respected, and very idealistic.</p>
+                        <button class="btn btn-outline-success" type="button">Learn More</button>
+                    </div>
+                    <div class="photo">
+                        <h2>Maria Clara</h2>
+                        <img src="https://static.wikia.nocookie.net/noli-me-tangere/images/4/4e/AviMariaClara.png/revision/latest/thumbnail/width/360/height/360?cb=20200523015219" alt="Maria Clara">
+                        <p>She is a woman of high social status and is believed to be Father Dámaso's goddaughter as well as the daughter of Capitan Tiago. She is truly Father Dámaso's biological child, the result of their scandalous relationship with Capitan Tiago's wife.</p>
+                        <button class="btn btn-outline-success" type="button">Learn More</button>
+                    </div>
+                    <div class="photo">
+                        <h2>Padre Dámaso</h2>
+                        <img src="https://static.wikia.nocookie.net/noli-me-tangere/images/8/8d/AviDamaso.png/revision/latest?cb=20200523011955" alt="Father Dámaso">
+                        <p>Father Dámaso is an elderly, ruthlessly corrupt, and Spanish priest who has spent almost two decades residing among the native Filipinos. He is profoundly prejudiced, spiteful, and vengeful, and he has no problem using his immense influence to destroy people who have wronged him.</p>
+                        <button class="btn btn-outline-success" type="button">Learn More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="back-to-top">
+                <a href="#top">Back to Top</a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Source: To learn more about the characters, visit: <a href="https://tl.wikipedia.org/wiki/Noli_Me_T%C3%A1ngere_(nobela)">https://tl.wikipedia.org/wiki/Noli_Me_T%C3%A1ngere_(nobela)</a></p>
+        <div class="social-media">
+            <a href="#"><img src="https://img.icons8.com/fluent/48/000000/facebook-new.png" alt="Facebook"></a>
+            <a href="#"><img src="https://img.icons8.com/fluent/48/000000/twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png" alt="Instagram"></a>
+            <a href="#"><img src="https://img.icons8.com/fluent/48/000000/youtube-play.png" alt="YouTube"></a>
+        </div>
+    </footer>
+</body>
+</html>

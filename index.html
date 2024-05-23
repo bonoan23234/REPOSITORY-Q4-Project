@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #ffe6f2;
+            font-family: 'Arial', sans-serif;
+        }
+        .navbar-custom {
+            background-color: #ff69b4;
+        }
+        .navbar-custom .navbar-brand, .navbar-custom .nav-link {
+            color: #fff;
+        }
+        .navbar-custom .nav-link:hover {
+            color: #fff;
+            text-decoration: underline;
+        }
+        .login-box {
+            width: 350px;
+            padding: 40px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            margin: 80px auto;
+            text-align: center;
+        }
+        .login-box h2 {
+            margin-bottom: 20px;
+            color: #ff69b4;
+        }
+        .login-box img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            border: 3px solid #ff69b4;
+        }
+        .login-box input[type="email"],
+        .login-box input[type="password"] {
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 2px solid #ff69b4;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+        .login-box input[type="email"]:focus,
+        .login-box input[type="password"]:focus {
+            border-color: #ff3399;
+            box-shadow: 0 0 5px rgba(255, 105, 180, 0.5);
+        }
+        .login-box input[type="submit"] {
+            width: 100%;
+            padding: 15px;
+            background-color: #ff69b4;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .login-box input[type="submit"]:hover {
+            background-color: #ff3399;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #ff69b4;
+            color: #fff;
+            border-top: 5px solid #ff3399;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .footer p {
+            margin: 0;
+        }
+        .footer a {
+            color: #fff;
+            text-decoration: underline;
+        }
+        .search-container {
+            display: flex;
+            align-items: center;
+        }
+        .search-input {
+            padding: 10px;
+            width: 80%;
+            max-width: 400px;
+            border: 2px solid #ff69b4;
+            border-radius: 5px;
+            font-size: 1em;
+            margin-right: 10px;
+        }
+        .search-button {
+            padding: 10px 20px;
+            background-color: #ff69b4;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        .search-button:hover {
+            background-color: #ff3399;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container">
+            <a class="navbar-brand" href="mainpage.html">
+                <img src="https://yt3.googleusercontent.com/ytc/AIdro_nq6O-1N-DWIC9Kgiz0t2UnQ52DZjgnH_UimsDq3pGNRfA=s900-c-k-c0x00ffffff-no-rj" alt="Logo" width="30" height="30">
+            </a>
+        </div>
+    </nav>
+
+    <div class="login-box">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3OqfqMOO7i4jMCh6a794Num9-Ebjr-H-1UEqyx_A8jw&s" alt="Profile Picture">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <input type="password" id="password" name="password" placeholder="Password" required>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+
+    <footer class="footer">
+        <p>© pinkiepie</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            window.location.href = 'mainpage.html';
+        });
+    </script>
+</body>
+</html>

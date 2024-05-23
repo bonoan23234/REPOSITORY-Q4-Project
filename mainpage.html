@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #ffe6f2;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .navbar-custom {
+            background-color: #ff69b4;
+            padding: 10px 0;
+        }
+        .navbar-custom .navbar-brand, .navbar-custom .nav-link {
+            color: #fff;
+        }
+        .navbar-custom .nav-link:hover {
+            color: #fff;
+            text-decoration: underline;
+        }
+        .container-custom {
+            background-color: #ffe6f2;
+            color: #333;
+            text-align: center;
+            padding: 40px 20px;
+            margin: 20px auto;
+            border-radius: 10px;
+            max-width: 800px;
+            border: 5px solid #ff69b4; /* Hot pink border */
+        }
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #ff69b4;
+            color: #fff;
+            border-top: 5px solid #ff3399;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .footer a {
+            color: #fff;
+            text-decoration: underline;
+        }
+        .search-container {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            margin-bottom: 10px;
+        }
+        .search-input {
+            padding: 10px;
+            width: 200px;
+            border: 2px solid #ff69b4;
+            border-radius: 5px;
+            font-size: 1em;
+            margin-right: 10px;
+        }
+        .search-button {
+            padding: 10px 20px;
+            background-color: #ff69b4;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        .search-button:hover {
+            background-color: #ff3399;
+        }
+        .comment-section {
+            margin-top: 40px;
+            text-align: left;
+        }
+        .comment-section h3 {
+            color: #333;
+        }
+        .comment {
+            background-color: #fff;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .comment h5 {
+            margin: 0 0 5px;
+        }
+        .comment p {
+            margin: 0;
+        }
+        .comment-form {
+            margin-top: 20px;
+        }
+        .comment-form textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ff69b4;
+            border-radius: 5px;
+        }
+        .comment-form button {
+            padding: 10px 20px;
+            background-color: #ff69b4;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        .comment-form button:hover {
+            background-color: #ff3399;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://yt3.googleusercontent.com/ytc/AIdro_nq6O-1N-DWIC9Kgiz0t2UnQ52DZjgnH_UimsDq3pGNRfA=s900-c-k-c0x00ffffff-no-rj" alt="Logo" width="30" height="30">
+            </a>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="mainpage.html">Home</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="page2.html">Second Quarter</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="page3.html">Third Quarter</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="page4.html">Fourth Quarter</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0 search-container">
+                <input class="form-control mr-sm-2 search-input" type="search" placeholder="Enter a keyword" aria-label="Search">
+                <button class="btn my-2 my-sm-0 search-button" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="container-custom">
+        <img src="https://yt3.googleusercontent.com/ytc/AIdro_nq6O-1N-DWIC9Kgiz0t2UnQ52DZjgnH_UimsDq3pGNRfA=s900-c-k-c0x00ffffff-no-rj" alt="Profile Picture" class="profile-img">
+        <div style="padding: 10px;">
+            <h1>MY ONLINE PORTFOLIO</h1>
+            <p>This portfolio shows my project for each quarter for this school year 2023-2024. This covers the following programming languages: Basic HTML, Cascading Style Sheet, Bootstrap, & JavaScript. You may click on the navigation links to check my project.</p>
+            <div>
+                <a href="#" class="btn btn-social-icon btn-facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="btn btn-social-icon btn-instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="btn btn-social-icon btn-tiktok"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-custom comment-section">
+        <h3>Comments</h3>
+        <div class="comment">
+            <h5>Jaimee Bonoan </h5>
+            <p>- HI PO MAAM!!!, thank you po for dealing with me huhu for the past 4 quarters., I want to say that your my favorite ict teacher (from my 3 years of highschool) I love you maam po as a teacher and also someone I can look up too :)), Im sad that you'll no longer be our ict teacher... but i hope your new batch of grade 9 students enjoy this class as much as i did :)) thank you ma'am for everything i'll miss you not just as a teacher also someone that I look up too :)) and at last once again thank you for everything ma'am :D.<p>
+        </div>
+        <form class="comment-form">
+            <div class="form-group">
+                <label for="comment">Leave a comment:</label>
+                <textarea class="form-control" id="comment" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <p>© pinkiepie </p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
